@@ -1,0 +1,119 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav div{
+    padding: 6px;
+    margin: 4px;
+}
+.nav-img:hover{
+    background-color: #515151;
+    border-radius: 50%;
+}
+.nav-img img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.nav-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 285px);
+}
+.search-bar{
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 44px;
+    width: 581px;
+    height: 45px;
+    padding: 10px;
+    margin-top: 25px;
+}
+.search-bar:hover{
+    background-color: #303134;
+    border: 1px solid #202124 !important;
+    -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.68);
+-moz-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.68);
+box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.68);
+}
+input {
+    all:unset;
+    color: #fff;
+    padding-top: 1px;
+    padding-left: 5px;
+    width: 100%;
+}
+.search-button{
+    margin-top: 30px;
+}
+.search-button button{
+    all: unset;
+    background-color: #303134;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #202124;
+}
+.search-button button:hover{
+    border: 0.1px solid rgb(85, 85, 85);
+}
+.other{
+    display: flex;
+    margin-top: 25px;
+}
+.language{
+    word-spacing: 0.99px;
+    display: inline-block;
+    color: #bdc1c6;
+    font-size: 13px;
+    line-height: 28px;
+}
+.language span a{
+    color: #8ab4f8;
+    text-decoration: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #171717;
+    width: 100%;
+    
+}
+footer div {
+    padding: 5px;
+}
+.links div{
+    padding: 10px;
+    color: #9aa0a6;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.links div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
